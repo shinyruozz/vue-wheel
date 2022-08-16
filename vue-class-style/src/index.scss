@@ -1,0 +1,26 @@
+#app {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 1px 3px 5px #ccc;
+    .wrap {
+        .header {
+            height: 44px;
+            background-color: green;
+            &.cur {
+                background-color: #000;
+                color: #fff;
+            }
+            &.orange {
+                color: orange;
+            }
+        }
+        .content {
+            height: 50px;
+            background-color: skyblue;
+            font-size: 30px;
+            &.orange {
+                color: orange;
+            }
+        }
+    }
+}
